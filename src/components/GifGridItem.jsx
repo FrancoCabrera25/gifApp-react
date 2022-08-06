@@ -9,7 +9,7 @@ export const GifGridItem = ({ title, url }) => {
   )
 }
 
-GifGridItem.PropTypes = {
+GifGridItem.propTypes = {
   title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
 }
